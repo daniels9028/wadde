@@ -7,13 +7,13 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
 
   return (
-    <header className="fixed w-full left-0 top-0 bg-white shadow-md">
-      <nav className="container mx-auto h-20 lg:px-10 px-4 flex flex-row justify-between items-center">
-        <div className="flex flex-row gap-4 items-center">
+    <header className="fixed top-0 left-0 z-50 w-full bg-white shadow-md">
+      <nav className="container flex flex-row items-center justify-between h-20 px-4 mx-auto lg:px-10">
+        <div className="flex flex-row items-center gap-4">
           <img src={logo} alt="logo" className="w-6 h-6" />
           <h1 className="text-lg font-bold">Wadde</h1>
         </div>
-        <ul className="lg:flex hidden flex-row items-center gap-8 cursor-pointer font-medium tracking-wide">
+        <ul className="flex-row items-center hidden gap-8 font-medium tracking-wide cursor-pointer lg:flex">
           <li>All Pages</li>
           <li>Pricing</li>
           <li>Contact</li>
@@ -23,7 +23,7 @@ const Navbar = () => {
           Sign In
         </button>
         <div
-          className="lg:hidden block text-3xl cursor-pointer transition-all"
+          className="block text-3xl transition-all cursor-pointer lg:hidden"
           onClick={() => setNav(!nav)}
         >
           {nav ? <FiX color="black" /> : <FiAlignRight color="black" />}
