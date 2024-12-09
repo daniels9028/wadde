@@ -7,8 +7,8 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
 
   return (
-    <div className="fixed w-full left-0 top-0 bg-white shadow-md">
-      <div className="container mx-auto h-20 lg:px-10 px-4 flex flex-row justify-between items-center">
+    <header className="fixed w-full left-0 top-0 bg-white shadow-md">
+      <nav className="container mx-auto h-20 lg:px-10 px-4 flex flex-row justify-between items-center">
         <div className="flex flex-row gap-4 items-center">
           <img src={logo} alt="logo" className="w-6 h-6" />
           <h1 className="text-lg font-bold">Wadde</h1>
@@ -28,8 +28,8 @@ const Navbar = () => {
         >
           {nav ? <FiX color="black" /> : <FiAlignRight color="black" />}
         </div>
-      </div>
-    </div>
+      </nav>
+    </header>
   );
 };
 
