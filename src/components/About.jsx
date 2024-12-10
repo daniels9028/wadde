@@ -3,7 +3,7 @@ import about from "../assets/about.png";
 
 const About = () => {
   return (
-    <section className="container mx-auto lg:px-10 px-4">
+    <section className="container mx-auto lg:px-10 px-4 mt-20">
       <div className="flex lg:flex-row flex-col justify-center w-full gap-8">
         <div className="flex flex-col justify-start lg:w-1/2 w-full">
           <p className="text-[#F15757] text-base font-medium leading-[26px]">
