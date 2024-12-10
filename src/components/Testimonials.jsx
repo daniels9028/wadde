@@ -2,7 +2,7 @@ import React from "react";
 import backtick1 from "../assets/backtick1.png";
 import backtick2 from "../assets/backtick2.png";
 
-const Testimonials = ({ testimonials }) => {
+const Testimonials = ({ testimonials, lists }) => {
   return (
     <section className="container mx-auto lg:px-10 px-4 mt-20">
       <div className="flex lg:flex-row flex-col justify-center items-start lg:gap-8 gap-20 w-full">
@@ -45,6 +45,17 @@ const Testimonials = ({ testimonials }) => {
             </div>
           ))}
         </div>
+      </div>
+      <div className="flex lg:flex-row flex-col justify-center items-center mt-10 gap-12 w-full">
+        {lists.map((list) => (
+          <div key={list.id} className="text-center">
+            <p className="text-[#2B71FA] font-bold text-[50px]">{list.point}</p>
+            <div className="flex flex-row items-center justify-center gap-2">
+              {list.icon}
+              <p className="text-[16px] text-[#1C1C1C]/60">{list.name}</p>
+            </div>
+          </div>
+        ))}
       </div>
     </section>
   );
