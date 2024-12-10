@@ -15,7 +15,7 @@ const Download = ({
       className={`container mx-auto lg:px-10 px-4 mt-28 ${classNameHeader}`}
     >
       <div
-        className={`grid lg:grid-cols-2 grid-cols-1 gap-12 place-items-center pt-20`}
+        className={`grid lg:grid-cols-2 grid-cols-1 gap-12 place-items-center py-20`}
       >
         <img src={image} alt="" />
         <div className="flex flex-col gap-8">
