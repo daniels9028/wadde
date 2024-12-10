@@ -13,7 +13,7 @@ const Apps = () => {
         <p className="text-[30px] text-[#1C1C1C]/60 font-bold text-center">
           Join over 55,000 businesses that have achieved their goals.
         </p>
-        <div className="flex border-2 lg:flex-row lg:w-2/3 w-full flex-col items-center justify-center lg:gap-8 gap-12 px-6 py-8 bg-white lg:rounded-full rounded-xl shadow-md shadow-[#F5C084] lg:mt-0 mt-8">
+        <div className="flex border-2 lg:flex-row lg:w-fit w-full flex-col items-center justify-center lg:gap-8 gap-12 px-6 py-8 bg-white lg:rounded-full rounded-xl shadow-md shadow-[#F5C084] lg:mt-0 mt-8">
           <img src={apps1} alt="apps1" className="lg:w-20 w-32" />
           <img src={apps2} alt="apps2" className="lg:w-20 w-32" />
           <img src={apps3} alt="apps3" className="lg:w-20 w-32" />
