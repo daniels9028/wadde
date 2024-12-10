@@ -132,7 +132,7 @@ const App = () => {
           "Secure Top 5% Industry Experts for Your Project",
           "WeChat & live chat",
         ]}
-        classNameHeader="bg-[#F6F6F9]"
+        classNameHeader="bg-[#F6F6F9] shadow-md"
         downloads={[download3, download4]}
       />
       <Email />
