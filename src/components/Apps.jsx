@@ -10,7 +10,7 @@ const Apps = () => {
   return (
     <div className="container px-4 mx-auto mb-10 lg:px-10">
       <div className="flex flex-col items-center justify-center gap-4">
-        <p className="text-[30px] text-[#1C1C1C]/60 font-bold text-center">
+        <p className="lg:text-[30px] text-[25px] text-[#1C1C1C]/60 font-bold text-center">
           Join over 55,000 businesses that have achieved their goals.
         </p>
         <div className="flex border-2 lg:flex-row lg:w-fit w-full flex-col items-center justify-center lg:gap-8 gap-12 px-6 py-8 bg-white lg:rounded-full rounded-xl shadow-md shadow-[#F5C084] lg:mt-0 mt-8">
