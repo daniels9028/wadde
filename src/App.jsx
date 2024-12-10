@@ -77,6 +77,7 @@ import download2 from "./assets/download2.png";
 import download3 from "./assets/download3.png";
 import download4 from "./assets/download4.png";
 import Download from "./components/Download";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -110,6 +111,7 @@ const App = () => {
         classNameHeader="bg-[#F6F6F9]"
         downloads={[download3, download4]}
       />
+      <Footer />
     </>
   );
 };
