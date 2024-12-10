@@ -77,7 +77,31 @@ import download2 from "./assets/download2.png";
 import download3 from "./assets/download3.png";
 import download4 from "./assets/download4.png";
 import Download from "./components/Download";
+import Email from "./components/Email";
 import Footer from "./components/Footer";
+
+const footerLinks = [
+  {
+    id: 1,
+    title: "Solutions",
+    links: ["Freelancer", "Data Analytics", "Small Business"],
+  },
+  {
+    id: 2,
+    title: "Company",
+    links: ["About", "Career", "Contact"],
+  },
+  {
+    id: 3,
+    title: "Resource",
+    links: ["Customers", "Strategic Finance", "Ebooks & Guides"],
+  },
+  {
+    id: 4,
+    title: "Features",
+    links: ["Freelancer", "Data Analytics", "Small Business"],
+  },
+];
 
 const App = () => {
   return (
@@ -111,7 +135,8 @@ const App = () => {
         classNameHeader="bg-[#F6F6F9]"
         downloads={[download3, download4]}
       />
-      <Footer />
+      <Email />
+      <Footer footerLinks={footerLinks} />
     </>
   );
 };
