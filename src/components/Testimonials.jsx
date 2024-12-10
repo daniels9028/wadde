@@ -46,7 +46,7 @@ const Testimonials = ({ testimonials, lists }) => {
           ))}
         </div>
       </div>
-      <div className="flex lg:flex-row flex-col justify-center items-center mt-10 gap-12 w-full">
+      <div className="flex lg:flex-row flex-col justify-center items-center lg:mt-20 mt-10 lg:gap-12 gap-4 w-full">
         {lists.map((list) => (
           <div key={list.id} className="text-center">
             <p className="text-[#2B71FA] font-bold text-[50px]">{list.point}</p>
