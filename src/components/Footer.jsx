@@ -5,8 +5,8 @@ const Footer = ({ footerLinks }) => {
   return (
     <section className="mt-20 bg-[#F6F6F9] w-full border-t border-gray-300">
       <footer className="container mx-auto lg:px-10 px-4 py-20">
-        <div className="flex lg:flex-row justify-center gap-8 flex-col w-full">
-          <div className="lg:w-1/3 flex flex-col">
+        <div className="flex lg:flex-row justify-center items-start gap-12 flex-col w-full">
+          <div className="lg:w-1/2 w-full flex flex-col">
             <div className="flex flex-row items-center gap-4">
               <img src={logo} alt="logo footer" />
               <p className="font-bold text-xl">Logoipsum</p>
@@ -19,7 +19,7 @@ const Footer = ({ footerLinks }) => {
               Copyright © 2023 All Rights Reserved by XB
             </p>
           </div>
-          <div className="lg:w-2/3 flex lg:flex-row flex-col items-center lg:text-left text-center justify-center gap-16">
+          <div className="lg:w-1/2 w-full flex lg:flex-row flex-col lg:items-start items-center lg:text-left text-center justify-center gap-16">
             {footerLinks.map((link) => (
               <div className="flex flex-col gap-6 cursor-pointer">
                 <p className="text-[#1C1C1C]/80 font-medium" key={link.id}>
