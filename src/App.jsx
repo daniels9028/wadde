@@ -72,6 +72,12 @@ const lists = [
   },
 ];
 
+import download1 from "./assets/download1.png";
+import download2 from "./assets/download2.png";
+import download3 from "./assets/download3.png";
+import download4 from "./assets/download4.png";
+import Download from "./components/Download";
+
 const App = () => {
   return (
     <>
@@ -81,6 +87,29 @@ const App = () => {
       <Plans />
       <About />
       <Testimonials testimonials={testimonials} lists={lists} />
+      <Download
+        title="Pave your path to triumph with XB innovation."
+        subtitle="X equips you with the essential tools to craft a genuinely professional SaaS website."
+        image={download1}
+        lists={[
+          "Effortless Browsing",
+          "Secure Top 5% Industry Experts for Your Project",
+          "Secure Transaction Platform",
+        ]}
+        button="More About Us"
+      />
+      <Download
+        title="Download our mobile app"
+        subtitle="X provides you with the essential toolkit to develop a genuinely polished website"
+        image={download2}
+        lists={[
+          "Effortless Browsing",
+          "Secure Top 5% Industry Experts for Your Project",
+          "WeChat & live chat",
+        ]}
+        classNameHeader="bg-[#F6F6F9]"
+        downloads={[download3, download4]}
+      />
     </>
   );
 };
