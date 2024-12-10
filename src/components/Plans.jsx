@@ -14,8 +14,8 @@ const Plans = () => {
         <h4 className="text-[40px] font-bold">
           We're here to assist you in creating, managing
         </h4>
-        <div className="flex flex-row items-center justify-center w-full gap-4 mt-10">
-          <div className="bg-[#E1E1E9] overflow-hidden rounded-lg flex flex-col w-1/3 pt-4 px-6 h-[265px] justify-between">
+        <div className="flex lg:flex-row flex-col items-center justify-center w-full gap-8 mt-10">
+          <div className="bg-[#E1E1E9] overflow-hidden rounded-lg flex flex-col lg:w-1/3 w-full pt-4 px-6 h-[265px] justify-between">
             <div className="flex flex-row items-center justify-between pb-4 border-b border-[#1C1C1C]/20 border-dashed">
               <p className="text-[20px] font-bold">Invesment Fund</p>
               <img src={plans1} alt="plans1" className="w-8 h-8" />
@@ -28,7 +28,7 @@ const Plans = () => {
               <img src={plans3} alt="plans3" className="object-cover w-56 " />
             </div>
           </div>
-          <div className="bg-[#E1E1E9] overflow-hidden rounded-lg flex flex-col w-2/3 pt-4 px-6 h-[265px] justify-between">
+          <div className="bg-[#E1E1E9] overflow-hidden rounded-lg flex flex-col lg:w-2/3 w-full pt-4 px-6 h-[265px] justify-between">
             <div className="flex flex-row items-center justify-between pb-4 border-b border-[#1C1C1C]/20 border-dashed">
               <p className="text-[20px] font-bold">Retirement Plan</p>
               <img src={plans2} alt="plans2" className="w-8 h-8" />
@@ -53,10 +53,10 @@ const Plans = () => {
             </div>
           </div>
         </div>
-        <div className="bg-gradient-to-b from-[#F6F6F9] to-[#EEEEF5] overflow-hidden rounded-lg flex flex-col w-full py-4 px-6 mt-8">
+        <div className="bg-gradient-to-b from-[#F6F6F9] to-[#EEEEF5] overflow-hidden rounded-lg flex flex-col w-full py-8 px-6 mt-8">
           <img src={plans6} alt="plans6" className="w-8 h-8" />
-          <div className="flex flex-row items-center justify-center w-full gap-8 mt-10">
-            <div className="w-1/2">
+          <div className="flex lg:flex-row flex-col items-center justify-center w-full gap-8 mt-10">
+            <div className="lg:w-1/2 w-full">
               <p className="font-bold text-[25px]">
                 Global Visa and Mastercard with Multi-Currency Support
               </p>
@@ -67,8 +67,8 @@ const Plans = () => {
                 editors.
               </p>
             </div>
-            <div className="w-1/2">
-              <img src={plans7} alt="plans7" className="w-[300px]" />
+            <div className="lg:w-1/2 w-full">
+              <img src={plans7} alt="plans7" className="object-cover" />
             </div>
           </div>
         </div>
