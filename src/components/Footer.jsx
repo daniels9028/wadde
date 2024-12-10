@@ -3,7 +3,7 @@ import logo from "../assets/logo.png";
 
 const Footer = ({ footerLinks }) => {
   return (
-    <section className="mt-20 bg-[#F6F6F9] w-full">
+    <section className="mt-20 bg-[#F6F6F9] w-full border-t border-gray-300">
       <footer className="container mx-auto lg:px-10 px-4 py-20">
         <div className="flex lg:flex-row justify-center gap-8 flex-col w-full">
           <div className="lg:w-1/3 flex flex-col">
