@@ -8,8 +8,8 @@ import banner5 from "../assets/banner5.png";
 const Banner = () => {
   return (
     <section className="my-24">
-      <div className="container flex flex-col-reverse items-center justify-between gap-4 pl-4 mx-auto lg:flex-row lg:pl-10">
-        <div className="flex flex-wrap items-center w-full pr-4 space-x-2 lg:w-1/2 lg:pr-0">
+      <div className="container flex flex-col-reverse justify-between gap-12 pl-4 mx-auto lg:flex-row lg:pl-10">
+        <div className="flex flex-wrap items-center w-full pr-4 space-x-2 lg:w-2/3 lg:pr-0">
           <p className="font-bold text-[50px]">Intelligent</p>
           <img
             src={banner1}
@@ -37,28 +37,26 @@ const Banner = () => {
               <img
                 src={banner4}
                 alt="banner4"
-                className="z-[2] object-cover w-16 h-16"
+                className="z-[2] object-cover w-12 h-12"
               />
               <img
                 src={banner5}
                 alt="banner5"
-                className="-ml-3 z-[3] object-cover w-16 h-16"
+                className="-ml-3 z-[3] object-cover w-12 h-12"
               />
-              <span className="w-16 h-16 rounded-full bg-white border border-gray-400 text-5xl -ml-3 z-[4] flex justify-center items-center">
+              <span className="w-12 h-12 rounded-full bg-white border border-gray-400 text-3xl -ml-3 z-[4] flex justify-center items-center">
                 +
               </span>
             </div>
-            <div className="flex flex-col justify-center ml-8 text-center">
-              <p className="font-bold text-[36px]">3.2m</p>
-              <p className="text-[18px] text-[#1C1C1C]/60">Success clients</p>
+            <div className="flex flex-col justify-center ml-4 text-center">
+              <p className="font-bold text-[26px]">3.2m</p>
+              <p className="text-[16px] text-[#1C1C1C]/60">Success clients</p>
             </div>
           </div>
         </div>
-        <img
-          src={banner3}
-          alt="banner3"
-          className="lg:w-1/2 h-[400px] object-cover w-full"
-        />
+        <div className="lg:w-1/3 w-full">
+          <img src={banner3} alt="banner3" className="object-cover" />
+        </div>
       </div>
     </section>
   );

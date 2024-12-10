@@ -9,7 +9,9 @@ const About = () => {
           <p className="text-[#F15757] text-base font-medium leading-[26px]">
             ABOUT US
           </p>
-          <p className="font-bold text-[50px] mt-4">Embark On Your Digital</p>
+          <p className="font-bold lg:text-[50px] text-[30px] mt-4">
+            Embark On Your Digital
+          </p>
           <p className="text-[#1C1C1C]/60 mt-8">
             FramerBite offers the key components to build a professional-grade
             website for your SaaS, a fact well-known to readers familiar with
