@@ -40,6 +40,38 @@ const testimonials = [
   },
 ];
 
+import { PiUsersThree } from "react-icons/pi";
+import { PiMoneyLight } from "react-icons/pi";
+import { PiProjectorScreenChart } from "react-icons/pi";
+import { PiKanban } from "react-icons/pi";
+
+const lists = [
+  {
+    id: 1,
+    name: "Partner with us",
+    point: "300+",
+    icon: <PiUsersThree />,
+  },
+  {
+    id: 2,
+    name: "Cumulative trending",
+    point: "$3.2b+",
+    icon: <PiMoneyLight />,
+  },
+  {
+    id: 3,
+    name: "Successfull projects",
+    point: "860k",
+    icon: <PiProjectorScreenChart />,
+  },
+  {
+    id: 4,
+    name: "Low interest rate",
+    point: "1.6%",
+    icon: <PiKanban />,
+  },
+];
+
 const App = () => {
   return (
     <>
@@ -48,7 +80,7 @@ const App = () => {
       <Apps />
       <Plans />
       <About />
-      <Testimonials testimonials={testimonials} />
+      <Testimonials testimonials={testimonials} lists={lists} />
     </>
   );
 };
